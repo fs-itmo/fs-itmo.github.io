@@ -144,26 +144,26 @@ footer {
 }
 
 .sponsor {
-    width: 150px; 
+    width: 150px; /* Уменьшен размер блока */
     text-align: center;
-    margin: auto; 
+    margin: auto; /* Центровка */
 }
 
 .sponsor img {
-    width: 100%; 
-    height: auto; 
+    width: 100%; /* Заполнение ширины блока */
+    height: auto; /* Пропорциональное изменение высоты */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .sponsor h3 {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 16px; /* Немного уменьшен размер текста */
     color: #2c3e50;
 }
 
 .sponsor p {
-    font-size: 12px; 
+    font-size: 12px; /* Уменьшен размер описания */
     color: #555;
 }
 
