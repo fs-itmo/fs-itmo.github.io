@@ -92,20 +92,18 @@ footer {
     color: #2c3e50;
     margin-bottom: 10px;
 }
-
-
 /* Team members layout */
 .team-member {
-    display: inline-block;
+    display: inline-block; /* Используем inline-block для горизонтального расположения */
     text-align: center;
-    margin: 10px; 
+    margin: 10px; /* Добавляем отступы между членами команды */
 }
 
 .team-member img {
-    width: 100px; 
+    width: 100px; /* Устанавливаем фиксированный размер изображения */
     height: 100px;
-    border-radius: 50%; 
-    object-fit: cover;
+    border-radius: 50%; /* Округление краев изображений */
+    object-fit: cover; /* Обрезка изображения для правильного отображения */
 }
 
 
