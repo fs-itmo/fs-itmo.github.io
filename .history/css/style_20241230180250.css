@@ -9,10 +9,8 @@ body {
     padding: 0;
     color: #333;
     background: url('assets/images/title.png') no-repeat center center fixed;
-    background-size: contain; 
-    background-color: #fff; 
+    background-size: cover;
 }
-
 header {
     background-color: rgba(0, 68, 102, 0.9);
     padding: 20px 0;

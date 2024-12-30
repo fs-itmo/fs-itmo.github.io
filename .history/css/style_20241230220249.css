@@ -9,8 +9,8 @@ body {
     padding: 0;
     color: #333;
     background: url('assets/images/title.png') no-repeat center center fixed;
-    background-size: contain; 
-    background-color: #fff; 
+    background-size: contain; /* Меняем cover на contain */
+    background-color: #fff; /* Добавляем цвет для пустых полос */
 }
 
 header {
