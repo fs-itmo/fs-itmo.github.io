@@ -66,15 +66,16 @@ section {
 
 section#home {
     background: url("../assets/images/title.png") no-repeat center center;
-    background-size: contain;
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    background-size: contain; /* Изображение будет полностью видно */
+    background-repeat: no-repeat; /* Отключает повторение */
+    background-attachment: fixed; /* Фиксирует фон при прокрутке */
     color: white;
     text-align: center;
     padding: 0px 0px;
     min-height: 100vh; 
     width: 100vw; 
 }
+
 
 header .logo {
     max-height: 80px; 
