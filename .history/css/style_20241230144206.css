@@ -66,13 +66,11 @@ section {
 
 section#home {
     background: url("../assets/images/title.png") no-repeat center center/cover;
-    color: white;
+    color: white; /* Текст белого цвета для контраста */
     text-align: center;
     padding: 10px 10px;
-    min-height: 100vh; 
-    width: 100vw; 
+    min-height: 700px; /* Устанавливаем минимальную высоту секции */
 }
-
 
 footer {
     background-color: rgba(0, 68, 102, 0.9);
