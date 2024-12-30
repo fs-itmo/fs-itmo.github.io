@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: url('assets/images/title.png') no-repeat center center fixed;
+    background: url('/home/mfclabber/fs-itmo.github.io/assets/images/title.png') no-repeat center center fixed;
     background-size: cover;
 }
 

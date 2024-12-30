@@ -3,12 +3,10 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: url('assets/images/title.png') no-repeat center center fixed;
-    background-size: cover;
 }
 
 header {
-    background-color: rgba(0, 68, 102, 0.9);
+    background-color: #004466;
     padding: 20px 0;
 }
 
@@ -46,20 +44,16 @@ section {
     padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section#home {
-    background: rgba(244, 244, 244, 0.9);
+    background: #f4f4f4;
     text-align: center;
     padding: 60px 20px;
-    border-radius: 10px;
 }
 
 footer {
-    background-color: rgba(0, 68, 102, 0.9);
+    background-color: #004466;
     color: white;
     text-align: center;
     padding: 20px 0;
