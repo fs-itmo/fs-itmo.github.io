@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -11,10 +12,12 @@ body {
     background: url('assets/images/title.png') no-repeat center center fixed;
     background-size: cover;
 }
+
 header {
     background-color: rgba(0, 68, 102, 0.9);
-    padding: 20px 0;
+    padding: 0px 0;
 }
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -23,23 +26,32 @@ header .container {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+h1, h2 {
+    text-align: center;
+}
+
 /* header .logo {
     max-height: 50px;
 } */
+
 header nav ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
+
 header nav ul li {
-    margin-left: 20px;
+    margin-left: 0px;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 16px;
 }
+
 section {
     padding: 0px 0px;
     max-width: 1200px;
@@ -48,12 +60,14 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 /* section#home {
     background: rgba(244, 244, 244, 0.9);
     text-align: center;
     padding: 60px 20px;
     border-radius: 10px;
 } */
+
 section#home {
     background: url("../assets/images/title.png") no-repeat center center;
     background-size: contain;
@@ -67,27 +81,30 @@ section#home {
 }
 
 header .logo {
-    max-height: 80px;
+    max-height: 80px; 
 }
+
 .logo-caption-container {
     display: flex;
     align-items: center;
     gap: 10px; 
 }
+
 header .top-caption {
     font-size: 24px; 
     font-weight: bold;
-    color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
 }
 
 footer {
     background-color: rgba(0, 68, 102, 0.9);
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 0px 0;
     margin-top: 20px;
 }
+
 .team-section {
     display: flex;
     flex-direction: column;
@@ -100,6 +117,8 @@ footer {
     color: #2c3e50;
     margin-bottom: 10px;
 }
+
+
 /* Team members layout */
 .team-member {
     display: inline-block;
@@ -107,9 +126,26 @@ footer {
     text-align: center;
     margin: 10px;
 }
+
 .team-member img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
+
+
+/* автопилот
+Новичков Дмитрий 
+Козак Борис 
+конструкторы
+Попов Глеб 
+Кочнева Екатерина 
+Лоу Цзячэн 
+Шалаев Максим
+Сидоренко Александр (пилот)
+электротехника
+Петриков Фёдор 
+Савченко Андрей 
+Ву Куньлунь
+Тарасов Степан */
