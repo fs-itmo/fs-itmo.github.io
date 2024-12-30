@@ -73,18 +73,6 @@ section#home {
     width: 100vw; 
 }
 
-.top-caption {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.7); /* Прозрачный фон */
-    color: white; /* Цвет текста */
-    font-size: 24px;
-    padding: 10px 0;
-    z-index: 1000; /* Поверх других элементов */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Тень для красоты */
-}
 
 footer {
     background-color: rgba(0, 68, 102, 0.9);
